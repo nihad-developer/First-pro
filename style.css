@@ -1,0 +1,486 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+body .imgbox {
+  overflow: hidden;
+}
+body .imgbox img {
+  width: 100%;
+}
+body section {
+  padding: 40px 0;
+}
+
+#carefor {
+  padding: 40px 0;
+}
+#carefor .textbox h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+#carefor .textbox h4 {
+  color: #999999;
+  font-size: 18px;
+  font-weight: 200;
+  margin: 10px 0 20px;
+}
+@media screen and (max-width: 992px) {
+  #carefor .textbox h4 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #carefor .textbox {
+    text-align: center;
+  }
+}
+
+#welcome .wid {
+  margin: 0 0 40px;
+  width: 580px;
+}
+#welcome .wid .icon {
+  color: #a2c0be;
+  font-size: 30px;
+  padding: 0 0 20px;
+}
+#welcome .wid h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+#welcome .wid h3 {
+  color: #808080;
+  margin: 8px 0 16px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+#welcome .textbox {
+  padding: 60px 30px 60px 60px;
+}
+#welcome .textbox h2 {
+  font-size: 32px;
+}
+#welcome .textbox h6 {
+  font-size: 20px;
+  color: #808080;
+  margin: 8px 0 16px;
+  line-height: 1.7;
+}
+#welcome .textbox .btn {
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #a2c0be;
+  color: white;
+}
+#welcome .text-end {
+  padding: 60px 60px 60px 30px;
+}
+#welcome .minibox {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  #welcome .textbox {
+    padding: 45px 0 45px 45px;
+  }
+  #welcome .textbox h2 {
+    font-size: 28px;
+  }
+  #welcome .textbox h6 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  #welcome .text-end {
+    padding: 45px 45px 45px 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  #welcome .textbox {
+    display: none;
+  }
+  #welcome .minibox {
+    display: block;
+    margin: 32px 0 48px;
+  }
+  #welcome .minibox h2 {
+    font-size: 32px;
+  }
+  #welcome .minibox h6 {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 8px 0 24px;
+  }
+  #welcome .minibox .btn {
+    padding: 10px 30px;
+    font-size: 12px;
+    border-radius: 30px;
+    background-color: #a2c0be;
+    color: white;
+  }
+  #welcome .margin-third {
+    margin: 32px 0 0;
+  }
+}
+
+#about .textbox {
+  width: 455px;
+}
+#about .textbox h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+#about .textbox h3 {
+  font-size: 24px;
+  color: #b7b6b6;
+  line-height: 1.4;
+  margin: 16px 0;
+}
+#about .textbox p {
+  font-size: 20px;
+  color: #a19f9f;
+  line-height: 1.4;
+}
+#about .textbox h4 {
+  font-size: 20px;
+  color: #9b9a9a;
+}
+#about .textbox li {
+  display: flex;
+  color: #808080;
+  margin: 20px 0 0;
+}
+#about .textbox .icon {
+  margin-right: 20px;
+  color: #a2c0be;
+}
+#about .textbox .bigicon {
+  color: #a2c0be;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#about .imgbox {
+  width: 500px;
+}
+@media screen and (max-width: 1200px) {
+  #about .textbox {
+    width: 380px;
+  }
+  #about .imgbox {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #about .textbox {
+    width: auto;
+    margin-bottom: 64px;
+  }
+  #about .imgbox {
+    width: auto;
+  }
+}
+
+#trainers .wid {
+  width: 580px;
+}
+#trainers .bigicon {
+  color: #a2c0be;
+  font-size: 30px;
+  padding: 0 0 20px;
+}
+#trainers h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+#trainers h3, #trainers h4 {
+  font-size: 20px;
+  color: #a8a8a8;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+#trainers .textbox {
+  padding: 15px;
+}
+#trainers .textbox h2 {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 20px 0;
+}
+#trainers .textbox ul {
+  display: flex;
+}
+#trainers .textbox li {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  background-color: #a2c0be;
+  border-radius: 50%;
+}
+#trainers .textbox .icon {
+  margin: -7px;
+}
+@media screen and (max-width: 1200px) {
+  #trainers h4 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #trainers .textbox {
+    margin-bottom: 16px;
+  }
+  #trainers .textbox h4 {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.2;
+  }
+}
+
+#pricing .textbox {
+  width: 500px;
+  text-align: center;
+  margin: 0 0 50px;
+}
+#pricing .textbox .icon {
+  color: #a2c0be;
+  font-size: 30px;
+  margin: 0 0 20px;
+}
+#pricing .textbox h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+#pricing .textbox h5 {
+  font-size: 20px;
+  color: #a0a0a0;
+  margin: 8px 0 16px;
+  line-height: 1.5;
+}
+#pricing .box {
+  padding: 64px 48px 64px 48px;
+  color: white;
+  text-align: center;
+  background-color: #a2c0be;
+}
+#pricing .box h2 {
+  font-size: 28px;
+}
+#pricing .box h3 {
+  font-size: 48px;
+  margin: 8px 0 24px;
+}
+#pricing .box span {
+  font-size: 16px;
+}
+#pricing .box ul {
+  text-align: start;
+}
+#pricing .box li {
+  display: flex;
+  margin: 0 0 20px;
+}
+#pricing .box li .icon {
+  color: white;
+}
+#pricing .box li h4 {
+  font-size: 18px;
+  margin: 0 0 0 10px;
+}
+#pricing .box .decor {
+  text-decoration: line-through;
+  color: rgba(255, 255, 255, 0.4);
+}
+#pricing .box .btn {
+  padding: 10px 30px;
+  margin: 30px 0 0;
+  background-color: #6c757d;
+  border-radius: 30px;
+  color: white;
+}
+#pricing .PREMIUM-color {
+  background-color: #343a40;
+}
+#pricing .PREMIUM-color .btn {
+  background-color: #a2c0be;
+}
+@media screen and (max-width: 992px) {
+  #pricing .box {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #pricing .box h3 {
+    margin: 24px 0 32px;
+  }
+  #pricing .box li {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+  #pricing .box .btn {
+    padding: 12px 40px;
+  }
+}
+
+#frequently .wid {
+  width: 500px;
+  margin: 0 0 48px;
+}
+#frequently h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+#frequently h3 {
+  color: #808080;
+  font-size: 16px;
+  margin: 8px 0 0;
+  line-height: 1.7;
+}
+#frequently ul li {
+  display: flex;
+  margin: 10px 0;
+}
+#frequently ul li .minibox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid #928e8e;
+  border-radius: 50%;
+}
+#frequently ul li .minibox .icon {
+  color: #d4cece;
+  font-size: 22px;
+}
+#frequently ul li .bgc {
+  background-color: #a2c0be;
+  width: 40px;
+}
+#frequently ul li .bgc .clr {
+  color: white;
+}
+#frequently ul li h4 {
+  font-size: 25px;
+  margin: 0 0 0 10px;
+  color: #818181;
+}
+#frequently ul li p {
+  font-size: 18px;
+  padding: 0 0 0 48px;
+  margin: 0 0 16px;
+  color: #949494;
+  line-height: 1.7;
+}
+#frequently .bigicon {
+  margin: 0 0 30px;
+  color: #82b5b1;
+  font-size: 32px;
+}
+@media screen and (max-width: 992px) {
+  #frequently ul {
+    margin-bottom: 48px;
+  }
+}
+
+#dogger .wid {
+  width: 580px;
+}
+#dogger .icon {
+  color: #a2c0be;
+  font-size: 30px;
+  margin: 0 0 20px;
+}
+#dogger h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+#dogger h3 {
+  font-size: 20px;
+  color: #828282;
+  margin: 16px 0 64px;
+  line-height: 1.4;
+}
+#dogger .box {
+  display: flex;
+}
+#dogger .box .textbox {
+  width: 325px;
+  margin: 0 0 0 20px;
+}
+#dogger .box .textbox h2 {
+  font-size: 25px;
+}
+#dogger .box .textbox h4 {
+  font-size: 18px;
+  color: #b3b3b3;
+  margin: 16px 0 0;
+}
+#dogger .box .textbox p {
+  font-size: 18px;
+  color: #808080;
+  line-height: 1.7;
+  margin: 16px 0;
+}
+#dogger .box .textbox h5 {
+  font-size: 18px;
+  color: #a2c0be;
+}
+@media screen and (max-width: 1200px) {
+  #dogger .textbox {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #dogger .box {
+    display: block;
+    margin: 0 10px;
+  }
+  #dogger .box .textbox {
+    width: auto;
+    margin: 20px 0 0;
+  }
+}
+
+#services .wid {
+  width: 580px;
+}
+#services .wid .bigicon {
+  color: #a2c0be;
+  font-size: 30px;
+  margin: 0 0 20px;
+}
+#services .wid h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+#services .wid h3 {
+  font-size: 20px;
+  color: #9f9d9d;
+  margin: 8px 0 16px;
+}
+#services .textbox {
+  padding: 30px 50px;
+}
+#services .textbox h2 {
+  font-size: 25px;
+  margin: 24px 0 16px;
+}
+#services .textbox h3 {
+  font-size: 18px;
+  color: #8a8a8a;
+  line-height: 1.6;
+}
+#services .textbox .icon {
+  font-size: 60px;
+}
+@media screen and (max-width: 992px) {
+  #services .textbox {
+    padding: 20px 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #services .textbox {
+    padding: 32px 0 16px;
+  }
+}/*# sourceMappingURL=style.css.map */
